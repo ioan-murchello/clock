@@ -71,8 +71,8 @@ body{
     content: '';
     position: absolute;
     width: 8px;
-    height: 70px;
-    background-color: red;
+    height: 80px;
+    background-color: rgb(246, 3, 3);
     border-radius: 5px 5px 0 0;
 }
 
@@ -80,13 +80,14 @@ body{
     content: '';
     position: absolute;
     width: 4px;
-    height: 85px;
+    height: 90px;
     background-color: rgb(209, 54, 54);
 }
 
 .sc::before{
     content: '';
     position: absolute;
+    border-radius: 50% 0 0 0;
     width: 4px;
     height: 140px;
     background-color: rgb(56, 153, 205);
